@@ -1,0 +1,879 @@
+body{
+  background: #F35353;
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+.wrapper{
+  background-color: #000;
+  margin: 0 auto;
+  position: relative;
+}
+/* ============================NAVBAR========================== */
+.navbar{
+    background-color: #000;
+    height: 71px;
+}
+.navbar__container{
+  height: 71px;
+  top: 0;
+  position: fixed;
+  background: #000;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+.navbar__logo{
+  margin-left: 150px;
+  margin-top: 21px;
+  margin-right: 582px;
+}
+.navbar__list{
+  display: inline-block;
+  text-align: right;
+
+}
+.navbar__link{
+  margin-left: 46px;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
+  text-align: right;
+}
+header{
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/header__bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 712px;
+
+}
+/* ====================== Стилизация шапки ======================== */
+.axit__logo{
+  width: 175px;
+  height: 60px;
+  margin-top: 109px;
+}
+.header__hr{
+  color: #fff;
+  width: 74px;
+  margin-top: 36px;
+}
+.header__container{
+  width: 1101px;
+  margin-left: 150px;
+  display: inline-block;
+}
+.header__caption{
+  color: #fff;
+  width: 461px;
+  font-family: 'Raleway', sans-serif;
+  filter: opacity(0.6);
+}
+.header__download{
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  width: 135px;
+  height: 42px;
+  padding-top: 15px;
+  padding-left: 32px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 44px;
+}
+a{
+  text-decoration: none;
+}
+.header__title{
+  width: 512px;
+  height: 70px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+.header__list{
+  display: inline-block;
+}
+/* =================== Стилизация инпута ======================== */
+.header__input{
+  width: 370px;
+  height: 365px;
+  background-color: #fff;
+  display: inline-block;
+  /* float: right; */
+  margin-left: 215px;
+  margin-top: 139px;
+}
+.header__input__title{
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  background: #F5F5F5;
+  height: 54px;
+
+}
+.header__input__list{
+  width: 370px;
+  height: 54px;
+}
+.header__input__trial{
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  padding: 14px;
+}
+strong{
+  color: #FF9B51;
+}
+.header__input__item__name{
+  margin-bottom: 36px;
+  width: 285px;
+  height: 31px;
+  padding: 6px 0 4px 10px;
+  border: none;
+  border-bottom: 1px solid #968484;
+  background: #fff;
+  outline: none;
+  box-shadow: 0;
+}
+.header__input__item__email{
+  margin-bottom: 36px;
+  width: 285px;
+  height: 31px;
+  padding: 6px 0 4px 10px;
+  border: none;
+  border-bottom: 1px solid #968484;
+  background: #fff;
+  outline: none;
+}
+.header__input__item__pass{
+  margin-bottom: 36px;
+  width: 285px;
+  height: 31px;
+  padding: 6px 0 4px 10px;
+  border: none;
+  border-bottom: 1px solid #968484;
+  background: #fff;
+  outline: none;
+}
+.header__input__item{
+  text-align: center;
+  margin-top: 29px;
+}
+.header__input__button{
+  width: 370px;
+  height: 54px;
+  background: #FF9B51;
+  text-align: center;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.header__input_link{
+    padding-top: 14px;
+}
+
+/* ===================================== SOCIAL MEDIA/СТИЛИЗАЦИЯ СОЦИАЛЬНЫХ СЕТЕЙ =================================== */
+main{
+  margin: 0;
+}
+.main__social__container{
+      height: 130px;
+      padding-left: 150px;
+      background-color: #fff;
+
+}
+.main__social__item{
+  display: inline-block;
+}
+.main__social__desc{
+  width: 360px;
+  height: 32px;
+  margin-top: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #86878B;
+  display: inline-block;
+  margin-right: 87px;
+}
+.main__social__title{
+  margin: 0;
+  padding-top: 21px;
+  font-family: "Open Sans", sans-serif;
+  width: 150px;
+}
+.main__social__images{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 45px;
+}
+/*  ===========================================TABS SECTION===================================================  */
+
+
+.main__tabs__list{
+  display: inline-block;
+  padding-top: 147px;
+}
+.main__tab1{
+    display: block;
+    background: #FF8B38;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    height: 112px;
+    width: 112px;
+    margin: 1px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+.main__tab{
+    display: block;
+    background: #333333;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    height: 112px;
+    width: 112px;
+    margin: 1px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+/*  ===========================================TABS SECTION INFORMATION===================================================  */
+.main__tabs__container{
+  display: inline-block;
+  width: 100%;
+  height: 596px;
+  background: #F5F5F5;
+}
+.main__tabs__info{
+  width: 476px;
+  display: inline-block;
+  padding-left: 100px;
+
+}
+.main__tabs__info h2{
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 52px;
+}
+.main__tabs__info p{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #86878B;
+  margin-bottom: 51px;
+}
+.main__tabs__info__download{
+  width: 121px;
+  height: 46px;
+  background: #FF8B38;
+  border-radius: 5px;
+  outline: none;
+  display: inline-block;
+  margin-bottom: 137px;
+}
+.main__tabs__img{
+  width: 320px;
+  height: 253px;
+  display: inline-block;
+  margin-left: 103px;
+}
+/*  ===========================================AWESOME SECTION  DESCRIPTION===================================================  */
+.main__awesome__container{
+  height: 593px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.main__awesome__content{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 108px;
+  font-weight:  normal;
+}
+.main__awesome__content hr{
+  width: 64px;
+  border: 1px solid #FF8C2D;
+}
+.main__awesome__content p{
+  color: #86878B;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.main__awesome__design{
+  width: 350px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 100px;
+}
+.main__awesome__design h2{
+  font-family: 'Open Sans', sans-serif;
+}
+.main__awesome__design p{
+  color: #86878B;
+  font-family: 'Open Sans', sans-serif;
+}
+.main__awesome__crafted{
+  width: 350px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 32px;
+  margin-top: 100px;
+}
+.main__awesome__crafted h2{
+  font-family: 'Open Sans', sans-serif;
+}
+.main__awesome__crafted p{
+  color: #86878B;
+  font-family: 'Open Sans', sans-serif;
+}
+.main__awesome__customize{
+  width: 350px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 32px;
+  margin-top: 100px;
+}
+.main__awesome__customize h2{
+  font-family: 'Open Sans', sans-serif;
+}
+.main__awesome__customize p{
+  color: #86878B;
+  font-family: 'Open Sans', sans-serif;
+}
+.main__awesome__light__pic{
+  padding-top: 25%;
+  width: 26px;
+  height: 35px;
+}
+.main__awesome__circle{
+  width: 60px;
+	height: 60px;
+	border: 2px solid #FF8C2D;
+	border-radius: 50px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.main__awesome__pic {
+  padding-top: 25%;
+}
+/* /*  ===========================================PRICE SECTION===================================================  */
+.main__price__container{
+  background: #F5F5F5;
+  height: 884px;
+  margin: 0;
+  padding-top: 5px;
+}
+.main__price__item h2{
+  font-size: 36px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 109px;
+  text-transform: uppercase;
+}
+.main__price__item hr{
+  width: 64px;
+  border: 1px solid #FF8C2D;
+  margin-top: 30px;
+}
+.main__price__item p{
+  color: #86878B;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.main__price__basic{
+  width: 343px;
+  margin-left: 100px;
+  display: inline-block;
+}
+.main__price__basic ul{
+  list-style-type: none;
+}
+.main__li__basic{
+  background-color: #333333;
+  color: #fff;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px solid #fff;
+}
+.main__li__0{
+  background-color: #333333;
+  color: #fff;
+  width: 349px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px solid #fff;
+}
+.main__li__0 sub{
+  font-size: 25px;
+}
+.main__li__free{
+  background-color: #333333;
+  color: #ADADAD;
+  width: 349px;
+  height: 28px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 3px solid #FF8B38;
+}
+.main__li__1{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+}
+.main__li__10{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+}
+.main__li__3{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+}
+.main__li__customization{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+}
+.main__li__wordpress{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+}
+.main__li__email{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.main__price__prof{
+  width: 343px;
+  display: inline-block;
+  margin-left: 40px;
+  width: 343px;
+}
+.main__price__prof ul{
+  list-style-type: none;
+}
+.main__li__prof{
+  background-color: #333333;
+  color: #fff;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+}
+.main__li__19{
+  background-color: #333333;
+  color: #fff;
+  width: 349px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px solid #fff;
+}
+.main__li__19 sub{
+  font-size: 25px;
+}
+.main__li__monthly{
+  background-color: #333333;
+  color: #ADADAD;
+  width: 349px;
+  height: 28px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 3px solid #FF8B38;
+}
+.main__li__our{
+  background-color: #FF8B38;
+  color: #fff;
+  width: 349px;
+  height: 28px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 3px solid #FF8B38;
+}
+.main__li__5gb{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+.main__li__50{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+.main__li__12{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+.main__li__advanced{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+.main__li__wordpress{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+.main__li__email{
+  background-color: #fff;
+  color: #86878B;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.main__price__enterpise{
+  display: inline-block;
+  margin-left: 40px;
+  width: 343px;
+  margin-top: 101px;
+  margin-right: 140px;
+}
+.main__price__enterpise ul{
+  list-style-type: none;
+}
+.main__li__enterpise{
+  background-color: #333333;
+  color: #fff;
+  width: 349px;
+  height: 30px;
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+}
+/*  ===========================================REVIEWS SECTION TITLE===================================================  */
+.main__reviews__container{
+  height: 650px;
+  background-color: #FFFFFF;
+  margin: 0;
+}
+.main__reviews__tittle{
+  text-align: center;
+  padding-top: 109px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+.main__reviews__tittle hr{
+  width: 64px;
+  margin: 0 auto;
+  border: 1px solid #FF8B38;
+  margin-top: 30px;
+}
+.main__reviews__tittle p{
+  color: #86878B;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+/*  ===========================================REVIEWS SECTION // USERS REVIEWS===================================================  */
+
+.main__reviws__jeremy{
+  width: 273px;
+  height: 258px;
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 76px
+}
+/*  ===========================================REVIEWS SECTION // DIALOG FORM(форма для слов)===================================================  */
+.main__reviws__rectangle{
+  width: 248px;
+  height: 147px;
+  background: #F5F5F5;
+}
+.main__reviws__rectangle p{
+  color: #86878B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-left: 12px;
+  padding-top: 24px;
+}
+.main__reviews__avatar{
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 15px;
+  line-height: 5px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.main__reviews__avatar h2{
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #333333;
+  display: inline-block;
+}
+.jeremy_photo{
+  width: 70;
+  display: inline-block;
+  margin-top: 12px;
+}
+.main__reviews__avatar p{
+  color: #86878B;
+  margin-top: 6px;
+}
+.main__reviws__john{
+  width: 273px;
+  height: 258px;
+  display: inline-block;
+  margin-left: 118px;
+  margin-top: 76px
+}
+.main__reviws__susan{
+  width: 273px;
+  height: 258px;
+  display: inline-block;
+  margin-left: 118px;
+  margin-top: 76px
+}
+.main__download__container{
+  height: 322px;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/download_bg.png');
+  margin: 0 auto;
+  text-align: center;
+  height: 321px;
+  color: #fff;
+  padding-top: 10px;
+}
+.main__download__content hr{
+  width: 64px;
+  color: #fff;
+}
+.main__download__content h2{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 36px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.main__download__content p{
+  filter: opacity(0.8);
+  text-align: center;
+  color: #fff;
+  margin-top: 23px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+}
+.main__download__button{
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #fff;
+  height: 42px;
+  width: 135px;
+  margin: 0 auto;
+  line-height: 1px;
+  margin-top: 33px;
+}
+.main__download__button__text{
+  text-align: center;
+  color: #fff;
+}
+/* ===========================================CONTACT US SECTION===================================================  */
+.contact__container{
+  height: 613px;
+  background: #fff;
+  padding-top: 5px;
+}
+.contact__title{
+  margin-top: 105px;
+  text-align: center;
+}
+.contact__title h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.contact__title hr{
+  width: 64px;
+  border: 1px solid #FF9B51;
+}
+.contact__title p{
+  color: #86878B;
+  margin-top: 30px;
+}
+/* ===========================================CONTACT US SECTION // TEXT AREA===================================================  */
+.contact__textarea__container{
+  display: inline-block;
+}
+.contact__textarea__content{
+  width: 527px;
+  height: 188px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.contact__content__input{
+  width: 527px;
+  height: 30px;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #968484;
+  background: #fff;
+  outline: none;
+  box-shadow: 0;
+}
+.contact__textarea_text{
+  width: 527px;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #968484;
+  background: #fff;
+  outline: none;
+  height: 140px;
+}
+.contact__textarea__textin{
+  display: inline-block;
+  margin-left: 67px;
+}
+.contact__textarea__content{
+  display: inline-block;
+}
+.contact__button{
+  text-align: center;
+  margin-top: 43px;
+}
+.contact__button button{
+  width: 148px;
+  height: 46px;
+  background: #FF9B51;
+  border-radius: 3px;
+  color: #fff;
+  outline-style: none;
+  text-align: center;
+  border-color: #FFFFFF;
+}
+/* =========================================================FOOTER============================================== */
+.footer__container{
+  height: 101px;
+  background-color: #000;
+  text-align: center;
+}
+.footer__social__images{
+  width: 20x;
+  height: 20px;
+  display: inline-block;
+  margin-left: 45px;
+  padding-top: 39px;
+}
+.footer__content p{
+  font-size: 12px;
+  color: #fff;
+}
